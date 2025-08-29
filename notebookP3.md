@@ -1,14 +1,45 @@
-my coding notebook
-
-
+#my coding notebook
 ## Table of Contents
-
-- [Day 1](#day-1)
-  - [Notes](#notes)
-  - [Practice](#practice)
-- [Day 2](#day-2)
-
+- [Flutter notes](#flutter-notes)
+  - [what is flutter? ](#what-is-flutter)
+  - [Key Terms and Definitions](#Key-Terms-and-Definitions)
 -[Notebook Style Guide](#Markdown-Style-Guide-for-Coding-Notebooks)
+
+## Flutter Notes
+
+### What is Flutter?
+- Definition:
+- Why is it useful?
+
+---
+
+### Key Terms and Definitions
+
+| Term             | Definition                                      | Example / Notes                          |
+|------------------|--------------------------------------------------|-------------------------------------------|
+| Widget           |      Basic building block of a flutter app. Everything is a widget|                                           |
+| MaterialApp      |      The root of the app. Sets up routes and theme|                                           |
+| Scaffold         |      Provides basic visual layout-like a header, body floating button|                                           |
+| StatelessWidget  |       a widget that doesn't change               |                                           |
+| StatefulWidget   |       A widget that can change over time         |
+| Navigator        |      Manages screen transitions                  |                                           |
+| AppBar           |      Top navigation bar                          |                                           |
+| Column           |      vertical layout                             |                                           |
+| Row              |      horizontal layout                           |                                           |
+| Container        |      wraps content with padding, margin or color |                                           |
+| Text             |      displays text                               |                                           |
+| Image.network    |      displays images from a URL                  |                                           |
+| padding          |      adds space around a widget                  |                                           |
+| Center           |      centers its child                           |                                           |
+
+---
+
+### Layout and Design Widgets
+- How do you center a widget?
+- How do you align something to the left or right?
+- What widget adds space around content?
+
+
 
 ## Markdown Style Guide for Coding Notebooks
 
