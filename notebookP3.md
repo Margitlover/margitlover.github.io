@@ -17,13 +17,13 @@
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |      Basic building block of a flutter app. Everything is a widget|                                           |
-| MaterialApp      |      The root of the app. Sets up routes and theme|                                           |
-| Scaffold         |      Provides basic visual layout-like a header, body floating button|                                           |
-| StatelessWidget  |       a widget that doesn't change               |                                           |
-| StatefulWidget   |       A widget that can change over time         |
-| Navigator        |      Manages screen transitions                  |                                           |
-| AppBar           |      Top navigation bar                          |                                           |
+| Widget           |   Basic building block of a flutter app. Everything is a widget|Text,Image,Container,Column  |
+| MaterialApp      |      The root of the app. Sets up routes and theme|  Found in main.dart                      |
+| Scaffold         |      Provides basic visual layout-like a header, body floating button| Each screen uses it   |
+| StatelessWidget  |       a widget that doesn't change               |  Most of the screen files                 |
+| StatefulWidget   |       A widget that can change over time         |  Used in MyHomePage()                     |
+| Navigator        |      Manages screen transitions                  |  Navigator .pushNamed(context,  '/page'); |
+| AppBar           |      Top navigation bar                          |   Title of each page appears here         |
 | Column           |      vertical layout                             |                                           |
 | Row              |      horizontal layout                           |                                           |
 | Container        |      wraps content with padding, margin or color |                                           |
@@ -31,7 +31,8 @@
 | Image.network    |      displays images from a URL                  |                                           |
 | padding          |      adds space around a widget                  |                                           |
 | Center           |      centers its child                           |                                           |
-
+| main             |      The function that runs the app              |         found in main.dart                |
+| Named Routes     |      Predefined paths to navigate between screens|         '/','/page2','/page3',ect         |
 ---
 
 ### Layout and Design Widgets
