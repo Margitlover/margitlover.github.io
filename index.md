@@ -7,4 +7,6 @@ title: Home
 - Project 2: Stick around
 ## About Me
 Click here to learn more → [About Me](about.md)
-[About Me](about.md) creates a clickable link to your About page.
+
+[my notebook](notebookP3.md)
+
