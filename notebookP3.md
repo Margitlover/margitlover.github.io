@@ -3,6 +3,8 @@
 - [Flutter notes](#flutter-notes)
   - [what is flutter? ](#what-is-flutter)
   - [Key Terms and Definitions](#Key-Terms-and-Definitions)
+  -  [Layout and Design Widgets](layout-and-design-widgets)
+  - [Flutter Definitions](#flutter_definitions)
 -[Notebook Style Guide](#Markdown-Style-Guide-for-Coding-Notebooks)
 -[Code Definitions](#code_definitions)
 
@@ -99,17 +101,17 @@ Fenced code blocks with language for full examples.
 |List  | A collection of values in a specific order. | `List<String> names = [];` |To Be organized  |  |
 |Null  | A special value that means “nothing.” | `String? name = null;` |not no what game is called untill started  |  |
 |Function| A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |jumping in a game |  |
-|      | The information passed into a function to change how it works. | `greet(String name)` |  |  |
-|      | The result a function gives back. | `return total;` |  |  |
-|      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
-|      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
-|      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
-|      | A variable that belongs to a class/object. | `String name;` |  |  |
-|      | A function that belongs to a class. | `void bark() {}` |  |  |
-|      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
-|      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
-|      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
-|      | A function that does not return a value. | `void printMessage() {}` |  |  |
+|Parameter| The information passed into a function to change how it works. | `greet(String name)` |  |  |
+|Return| The result a function gives back. | `return total;` |  |  |
+|Scope | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
+|Class | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
+|object| A specific version of a class. | `Dog myDog = Dog();` |  |  |
+|Property A variable that belongs to a class/object. | `String name;` |  |  |
+|Method| A function that belongs to a class. | `void bark() {}` |  |  |
+|Constructor| A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
+|Abstarction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+|Override| Changing how a built-in or inherited function behaves. | `@override` |  |  |
+|Void    | A function that does not return a value. | `void printMessage() {}` |  |  |
 ✅ Example:
 
 
