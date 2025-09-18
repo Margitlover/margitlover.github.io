@@ -48,9 +48,7 @@
 ## Flutter Definitions with structures
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
-
 |------|----------------------------|----------------|-------------------|-------------|
-
 | Main() | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` | Turning on phone  |  |
 |MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |setting up accounts  |  |
 |Scaffold| A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | A templet  |  |
