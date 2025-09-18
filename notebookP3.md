@@ -49,15 +49,15 @@
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
-| Main() | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` | Turning on phone  |  |
-|MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |setting up accounts  |  |
-|Scaffold| A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | A templet  |  |
-|Column| A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |Using division  |  |
-|Row   | A widget that shows things side-by-side. | `Row(...)` |every thing related to the term  |  |
-|Container| A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` | backgroumds to hold things  |  |
-|Text  | A widget to display text on the screen. | `Text('Hello')` | words |  |
-|Image.network| A widget to show an image using a link from the internet. | `Image.network('https://...')` |Pictures  |  |
-|ElevatedButton| A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |exposive button  |  |
+| Main() | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` | Turning on phone  | main.dart void main() => runApp(MyPortfolioApp());  |
+|MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |setting up accounts  | main.dart return MaterialApp( |
+|Scaffold| A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | A templet  |alt_design_screen.dart return Scaffold(body: ListView(children: dogInfo  |
+|Column| A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |Using division  | showcase.dart child: Column(children: [ |
+|Row   | A widget that shows things side-by-side. | `Row(...)` |every thing related to the term  | infoCard.dart child: Row(children: [ |
+|Container| A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` | backgroumds to hold things  |home.dart Container(width: 200,height: 200,decoration: BoxDecoration(  |
+|Text  | A widget to display text on the screen. | `Text('Hello')` | words |const Text('HI EVERYONE,\nWelcome to the',style: TextStyle(   |
+|Image.network| A widget to show an image using a link from the internet. | `Image.network('https://...')` |Pictures  |home.dart child: Image.network('https://placedog.net/640/480?random',fit: BoxFit.cover,),  |
+|ElevatedButton| A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |exposive button  |home.dart ElevatedButton(onPressed: () => Navigator.pushNamed(context, '/background'),child: const Text('Next'),),  |
 |onPressed| The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` | everytime that you prees a button +1$  |  |
 |StatelessWidget| A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` | info on welcome page  |  |
 |StatefulWidget | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` | a game that you play  |  |
@@ -103,10 +103,10 @@
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-|variable| A named container used to store a value that may change. | `var x = 5;` | student age is 15 |  |
-|Constant| A fixed value that cannot change once set. | `const PI = 3.14;` |The Apps Tital  |  |
-|Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |Age vs Name|  |
-|String| A sequence of characters used to represent words or text. | `"Hello World"` |Sentisis  |  |
+|variable| A named container used to store a value that may change. | `var x = 5;` | student age is 15 | main.dart title: 'TSA Portfolio', |
+|Constant| A fixed value that cannot change once set. | `const PI = 3.14;` |The Apps Tital  | padding: const EdgeInsets.all(12), |
+|Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |Age vs Name| const SizedBox(width: 12), |
+|String| A sequence of characters used to represent words or text. | `"Hello World"` |Sentisis  | theme: ThemeData( |
 |Integer| Whole number values. | `int age = 16;` |grades  |  |
 |Double |Number values with decimals. | `double age = 16.2;` |any use o calculation  |  |
 |Boolean| A value that can be true or false. | `bool isLoggedIn = false;` |Are dogs real  |  |
