@@ -58,9 +58,9 @@
 |Text  | A widget to display text on the screen. | `Text('Hello')` | words |const Text('HI EVERYONE,\nWelcome to the',style: TextStyle(   |
 |Image.network| A widget to show an image using a link from the internet. | `Image.network('https://...')` |Pictures  |home.dart child: Image.network('https://placedog.net/640/480?random',fit: BoxFit.cover,),  |
 |ElevatedButton| A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |exposive button  |home.dart ElevatedButton(onPressed: () => Navigator.pushNamed(context, '/background'),child: const Text('Next'),),  |
-|onPressed| The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` | everytime that you prees a button +1$  |  |
-|StatelessWidget| A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` | info on welcome page  |  |
-|StatefulWidget | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` | a game that you play  |  |
+|onPressed| The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` | everytime that you prees a button +1$  | onPressed: () => Navigator.pushNamed(context, '/showcase'),child: const Text('Next'),), backgroung.dart|
+|StatelessWidget| A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` | info on welcome page  | class AltDesignScreen extends StatelessWidget { alt_design_screen|
+|StatefulWidget | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` | a game that you play  | not found in app |
 |Navigator      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` | Navigateing through a website |  |
 | padding      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` | adding some space |  |
 |center      | Aligns content in the center of the screen or container. | `Center(child: ...)` | a tital |  |
@@ -106,13 +106,13 @@
 |variable| A named container used to store a value that may change. | `var x = 5;` | student age is 15 | main.dart title: 'TSA Portfolio', |
 |Constant| A fixed value that cannot change once set. | `const PI = 3.14;` |The Apps Tital  | padding: const EdgeInsets.all(12), |
 |Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |Age vs Name| const SizedBox(width: 12), |
-|String| A sequence of characters used to represent words or text. | `"Hello World"` |Sentisis  | theme: ThemeData( |
-|Integer| Whole number values. | `int age = 16;` |grades  |  |
-|Double |Number values with decimals. | `double age = 16.2;` |any use o calculation  |  |
-|Boolean| A value that can be true or false. | `bool isLoggedIn = false;` |Are dogs real  |  |
-|List  | A collection of values in a specific order. | `List<String> names = [];` |To Be organized  |  |
-|Null  | A special value that means “nothing.” | `String? name = null;` |not no what game is called untill started  |  |
-|Function| A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |jumping in a game |  |
+|String| A sequence of characters used to represent words or text. | `"Hello World"` |Sentisis  |title: 'TSA Portfolio', |
+|Integer| Whole number values. | `int age = 16;` |grades  | fontSize: 28, home.dart |
+|Double |Number values with decimals. | `double age = 16.2;` |any use o calculation  | vertical: 8.0 infocard |
+|Boolean| A value that can be true or false. | `bool isLoggedIn = false;` |Are dogs real  |  debugShowCheckedModeBanner: false, main.dart |
+|List  | A collection of values in a specific order. | `List<String> names = [];` |To Be organized  | final List<Map<String, String>> dogInfo = [{"image": "https://placedog.net/550","text": "This is Luna, a cheerful retriever who loves playing fetch.",}, alt_design_screen |
+|Null  | A special value that means “nothing.” | `String? name = null;` |not no what game is called untill started  | final String imageUrl; = null infocard.dart |
+|Function| A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |jumping in a game | not found in app |
 |Parameter| The information passed into a function to change how it works. | `greet(String name)` |  |  |
 |Return| The result a function gives back. | `return total;` |  |  |
 |Scope | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
