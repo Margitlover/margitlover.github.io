@@ -124,14 +124,14 @@
 |Abstarction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
 |Override| Changing how a built-in or inherited function behaves. | `@override` |  |  |
 |Void    | A function that does not return a value. | `void printMessage() {}` |  |  |
-
-
-
-
-
-
-
-
+|Scanner|Creates a scanner object to take input from user |Scanner in = new scanner(System.in);  |  |  |
+|impor scanner  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
 
 
 
