@@ -135,6 +135,7 @@
 |overloded methods/function or constructor | uses the same name, but has different parameters | pizza(), pizza(String toppings) 2
 constructors, first is a defalt cheese pizza, 2nd has 1 topping |||
 | dot notation | methods are called on objects using a dot after the object name | object.method(value);|||
+| Concatenate | to combine strings with other strings and/or variables | strings greeting = "hello" + "My name is " + name ". "; |||
 
 
 ## Markdown Style Guide for Coding Notebooks
