@@ -138,7 +138,25 @@
 constructors, first is a defalt cheese pizza, 2nd has 1 topping |||
 | dot notation | methods are called on objects using a dot after the object name | object.method(value);|||
 | Concatenate | to combine strings with other strings and/or variables | strings greeting = "hello" + "My name is " + name ". "; |||
-| index | location of value of each character in a string or list, stra
+| index | location of value of each character in a string or list, strarting at 0 | "hello" index of 'e' is 1 |||
+
+
+
+
+
+
+
+Method Signature	Description	Return Type	Method Call
+int length()	Returns the number of characters in a String object	int	length()
+String substring(int from, 
+ int to) 	returns the substring beginning at index from and ending at index (to - 1)	String	substring(indexStart, indexEnd)
+String substring(int from)	returns substring beginning at index from and through the end of the string	String	substring(index)
+int indexOf(String str)	Returns the index of the first occurrence of str; returns -1 if not found	int	indexOf(str)
+boolean equals(String other)	Returns true if the string has the same sequence of characters as other; returns false otherwise 	boolean	equals(str)
+int compareTo(String other)	compares two strings character by character based on the order of the alphabet; returns a negative integer if the string is less than other; returns zero if the string is equal to other; returns a positive integer if the string is greater than other	int	compareTo(str)
+
+
+
 
 
 ## Markdown Style Guide for Coding Notebooks
