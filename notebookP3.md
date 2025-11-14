@@ -138,6 +138,7 @@
 constructors, first is a defalt cheese pizza, 2nd has 1 topping |||
 | dot notation | methods are called on objects using a dot after the object name | object.method(value);|||
 | Concatenate | to combine strings with other strings and/or variables | strings greeting = "hello" + "My name is " + name ". "; |||
+| index | location of value of each character in a string or list, stra
 
 
 ## Markdown Style Guide for Coding Notebooks
